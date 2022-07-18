@@ -1,4 +1,5 @@
 const express=require("express")
+require("dotenv").config()
 const app=express();
 const hbs=require("hbs")
 const path=require("path")
