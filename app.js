@@ -3,7 +3,7 @@ require("dotenv").config()
 const app=express();
 const hbs=require("hbs")
 const path=require("path")
-const port=procecss.env.PORT
+const port=process.env.PORT
 const session=require("express-session")//Paquete de seguridad para los login.
 //configuramos express session copiando el codigo de la documentacion.
 app.use(
